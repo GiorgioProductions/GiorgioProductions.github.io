@@ -6,7 +6,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>Giorgio Productions</title>
-    <meta name="description" content="Web oficial de GiorgioProductions. YouTuber y Game Developer cartagenero conocido por sus exitosos vídeos. Entra para descubrir todos sus proyectos.">
+    <meta name="description" content="Web oficial de GiorgioProductions. YouTuber y Game Developer cartagenero.">
     <meta name="author" content="Giorgio Productions">
 	  <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://giorgioproductions.github.io">
@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/giorgio.css">
 
     <!-- script
     ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script>
     <script src="js/modernizr.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics  -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148484438-1"></script>
@@ -120,7 +122,7 @@
             <div class="row home-content__main">
 
                 <h1 font-size: 16px>
-                Giorgio
+                Giorgio Productions
                 </h1>
 
                 <h3>
@@ -145,12 +147,34 @@
 
         <div class="row narrow section-intro add-bottom text-center">
 
-            <div class="col-twelve tab-full">
-				<br /><br />
-                <h1 class="display-1">Mis proyectos</h1>
+        <div class="col-twelve tab-full">
+        <br /><br />
+        <h1 class="display-1">
+          Sobre mí
+        </h1>
+        <div class="col-six tab-full">
+        <p style="text-align:left">
+          Puedes llamarme Giorgio. En mis ratos libres me gusta programar, crear aplicaciones y páginas web y hacer vídeos para YouTube.
+        </p>
+        </div>
+        <div class="col-six tab-full">
+        <img id="chibi" src="images/chibi.png" alt="Giorgio Chibi" height="250" width="250" class="chibi">
+        <script type="text/javascript">
+        if (isMobile.apple.phone || isMobile.android.phone) {
+          console.log("Deja de mirarme desde el móvil")
+          document.getElementById("chibi").classList.remove("chibi");
+        } else {console.log("Hola usuario de Windows")}
+        </script>
+        </div>
+        <br /><br />
+        <hr>
+			  <br /><br />
+        <h1 class="display-1">
+          Mis proyectos
+        </h1>
 				<div class="col-six tab-full">
 				<a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.gmbeat">
-					<img alt="TapLoop" src="images/taploop.gif">
+					<img alt="TapLoop" src="images/taploop.gif" width="310" height="128">
 				</a>
 				<p><strong>TapLoop</strong> es un juego de tapping gratuito que puedes jugar cuando estés aburrido. Está disponible únicamente para Android y puedes descargarlo desde <a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.gmbeat"><strong>Google Play</strong></a>.</p>
 				</div>
@@ -165,7 +189,7 @@
 			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 		<div class="row">
             <div class="col-full ss-copyright">
-                <span>© 2019 <strong>Giorgio Productions</strong></span>
+                <span>© 2019 Giorgio Productions</span>
                 <span>Design by <a href="https://www.styleshout.com/">Styleshout</a></span>
             </div>
         </div>
