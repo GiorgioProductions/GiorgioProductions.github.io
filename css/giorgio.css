@@ -2,9 +2,13 @@
 top:0px;
 margin-top: -50%
 }
-.textodemierda {
+.aboutmepc {
   right:0px;
   margin-right: 35%;
   top:0px;
   margin-top: -3%;
+  text-align:right;
+}
+.aboutmemobile {
+  text-align:center;
 }
