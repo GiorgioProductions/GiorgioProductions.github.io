@@ -25,6 +25,7 @@
 
     <!-- script
     ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script>
     <script src="js/modernizr.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics  -->
@@ -151,7 +152,7 @@
         <h1 class="display-1">
         Sobre mí
         </h1>
-        <p id="aboutme" class="textodemierda aboutmeright">
+        <p id="aboutme">
         Me llamo Giorgio y llevo desde los 9 años interesado en la programación. Posteriormente me interesé también en la creación de vídeos, motivo por el que, en 2015, surgió Giorgio Productions, mi actual canal de YouTube. Ahora, el desarrollo de apps y la producción audiovisual son mis dos grandes pasiones.
         </p>
         <div class="col-six tab-full">
@@ -160,12 +161,28 @@
         <div class="col-six tab-full">
         <img id="chibi" src="images/chibi.png" alt="Giorgio Chibi" height="250" width="250" class="chibi">
         <script type="text/javascript">
+        var resdif = (screen.width/screen.height);
+        if (resdif >= 1.6) {
+        var Widescreen = 1;
+        }
+        else {
+        var Widescreen = 0;
+        }
         if (isMobile.apple.phone || isMobile.android.phone) {
           console.log("Deja de mirarme desde el móvil")
           document.getElementById("chibi").classList.remove("chibi");
           document.getElementById("aboutme").classList.add("aboutmemobile");
-        } else {console.log("Hola usuario de Windows");
+        } else {
+          var windowheight = $(window).height();
+          var windowwidth = $(window).width();
+        if (windowheight<windowwidth*0.75) {
+        console.log("Hola usuario de Windows");
         document.getElementById("aboutme").classList.add("aboutmepc");
+      } else {
+        console.log("Eres muy raro")
+        document.getElementById("chibi").classList.remove("chibi");
+        document.getElementById("aboutme").classList.add("aboutmemobile");
+      }
       }
         </script>
         </div>
