@@ -23,7 +23,7 @@ function chibi(){
   else {
   var Widescreen = 0;
   }
-  if (isMobile.apple.phone || isMobile.android.phone) {
+  if ((isMobile.apple.phone || isMobile.android.phone) && (windowheight>windowwidth*0.75)) {
     console.log("Deja de mirarme desde el móvil")
     document.getElementById("chibi").classList.remove("chibi");
     document.getElementById("aboutme").classList.add("aboutmemobile");
