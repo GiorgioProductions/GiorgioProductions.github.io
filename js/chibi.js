@@ -23,6 +23,8 @@ function chibi(){
   else {
   var Widescreen = 0;
   }
+  var windowheight = $(window).height();
+  var windowwidth = $(window).width();
   if ((isMobile.apple.phone || isMobile.android.phone) && (windowheight>windowwidth*0.75)) {
     console.log("Deja de mirarme desde el móvil")
     document.getElementById("chibi").classList.remove("chibi");
@@ -31,7 +33,7 @@ function chibi(){
   } else {
     var windowheight = $(window).height();
     var windowwidth = $(window).width();
-  if (windowheight<windowwidth*0.75) {
+  if (windowheight<windowwidth*0.65 && windowwidth>800) {
   console.log("Hola usuario de Windows");
   document.getElementById("aboutme").classList.add("aboutmepc");
   document.getElementById("chibi").classList.add("chibi");
