@@ -1,2 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /CollaborationPlus/
+Disallow: /TapLoop/
+Disallow: /404
+
+User-agent: Googlebot-Image
+Allow: /
