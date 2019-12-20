@@ -5,4 +5,6 @@ Disallow: /TapLoop/
 Disallow: /404
 
 User-agent: Googlebot-Image
+Allow: /fotos
+Allow: /fotos.html
 Allow: /
