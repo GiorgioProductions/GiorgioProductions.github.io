@@ -113,12 +113,7 @@ function chibi(){
   var windowheight = $(window).height();
   var windowwidth = $(window).width();
 
-  function verticalScreen(windowheight, windowwidth) {
-    if (windowwidth < (windowheight * 0.75)) {return true;}
-    else {return false;}
-  }
-
-  if ((isMobile.apple.phone || isMobile.android.phone) && (verticalScreen(windowheight,windowwidth))) {
+  if ((isMobile.apple.phone || isMobile.android.phone) && (windowwidth < (windowheight * 0.75))) {
     screenMobile();
   } else {
 
