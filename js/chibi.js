@@ -50,7 +50,7 @@
       };
   }(jQuery);
 
-
+alert("test");
 chibi();  //Ejecutar el script de colocación
 
 
