@@ -74,6 +74,7 @@ chibi();
 // Acciones dependiendo de la pantalla
 
  function screenMobile() {
+   alert("mobile");
    console.log("Deja de mirarme desde el móvil")
    document.getElementById("aboutme").classList.add("aboutmemobile");
    document.getElementById("aboutme").classList.remove("aboutmepc");
