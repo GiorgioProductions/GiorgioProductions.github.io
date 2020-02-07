@@ -73,7 +73,6 @@ chibi();
 // Acciones dependiendo de la pantalla
 
  function screenMobile() {
-   document.getElementById("h3").innerHTML = "mobile"
    console.log("Deja de mirarme desde el móvil")
    document.getElementById("aboutme").classList.add("aboutmemobile");
    document.getElementById("aboutme").classList.remove("aboutmepc");
@@ -119,7 +118,7 @@ function chibi(){
     else {return false;}
   }
 
-  if ((isMobile.apple.phone || isMobile.android.phone) && (verticalScreen())) {
+  if ((isMobile.apple.phone || isMobile.android.phone) && (verticalScreen(windowheight,windowwidth))) {
     screenMobile();
   } else {
 
