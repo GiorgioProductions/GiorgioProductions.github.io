@@ -50,7 +50,6 @@
       };
   }(jQuery);
 
-alert("test");
 chibi();  //Ejecutar el script de colocación
 
 
@@ -74,7 +73,7 @@ chibi();
 // Acciones dependiendo de la pantalla
 
  function screenMobile() {
-   alert("mobile");
+   document.getElementById("h3").innerHTML = "mobile"
    console.log("Deja de mirarme desde el móvil")
    document.getElementById("aboutme").classList.add("aboutmemobile");
    document.getElementById("aboutme").classList.remove("aboutmepc");
