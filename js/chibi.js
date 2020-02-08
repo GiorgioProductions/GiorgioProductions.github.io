@@ -10,8 +10,6 @@ var newHeight = $(window).height();
 if( newWidth != width || newHeight != height ) {
 width = newWidth;
 height = newHeight;
-/*var windowheight = $(window).height();
-var windowwidth = $(window).width();*/
 chibi();
 }
 });
@@ -54,6 +52,8 @@ chibi();
 //
 
 function chibi(){
+  var windowheight = $(window).height();
+  var windowwidth = $(window).width();
   if ((isMobile.apple.phone || isMobile.android.phone) && (windowwidth < (windowheight * 0.75))) {
     screenMobile();
   } else {
