@@ -2,10 +2,9 @@ User-agent: *
 Allow: /
 Allow: /sitemap.xml
 Disallow: /CollaborationPlus/
-Disallow: /TapLoop/
+Allow: /TapLoop/
 Disallow: /404
 
 User-agent: Googlebot-Image
-Allow: /fotos
-Allow: /fotos.html
 Allow: /
+Allow: /TapLoop/
