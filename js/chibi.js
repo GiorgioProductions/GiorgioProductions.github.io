@@ -39,9 +39,9 @@ chibi();
     document.getElementById("aboutme").classList.remove("aboutmemobile");
     document.getElementById("chibi").classList.add("chibi");
 
-    var testing1 = document.getElementById("testing1");
-    var testing2 = document.getElementById("testing2");
-    if (testing1.offsetTop < testing2.offsetTop) {
+    var testing1 = document.getElementById("collaborationplustext");
+    var testing2 = document.getElementById("taplooptext");
+    if (testing1.offsetTop != testing2.offsetTop) {
       screenCosaRara();
     }
   }
