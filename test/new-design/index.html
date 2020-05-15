@@ -21,6 +21,13 @@
   </head>
 
   <body>
+
+    <div id="video" class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+          <source src="images/hero-bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -43,15 +50,15 @@
           document.getElementById("img4").style.display = "none";
           document.getElementById("h1-giorgio").style.display = "none";
         </script>
+
+
+
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
+
       <!-- Begin Hero -->
-      <section class="hero is-large">
-        <div class="fullscreen-bg">
-            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-              <source src="TapLoop/taploop.mp4" type="video/mp4">
-            </video>
-        </div>
+      <section id="hero" class="hero is-large">
+
         <!-- Begin Mobile Nav -->
         <nav class="navbar is-transparent is-hidden-desktop">
           <!-- Begin Burger Menu -->
