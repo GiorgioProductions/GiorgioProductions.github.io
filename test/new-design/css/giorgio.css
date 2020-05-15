@@ -1,0 +1,12 @@
+.horizontal-ul {
+  list-style: none;
+  display: inline-block;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.horizontal-ul li {
+  display: inline-block;
+  margin-right: 12px;
+  padding-left: 0;
+}
