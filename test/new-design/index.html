@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Web oficial de Giorgio Productions. Programador y youtuber cartagenero.">
     <title>Giorgio Productions</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148484438-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148484438-1');
+    </script>
+
+
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/showcase.css" />
@@ -123,8 +135,8 @@
                 muy pequeño interesado en la informática, más concretamente en el
                 ámbito de la programación. Siempre me ha apasionado poder crear
                 algo con lo que la gente pueda interactuar. Posteriormente también
-                me interesé por la producción audiovisual, motivo por el cual en
-                2015 surgió <strong>Giorgio Productions</strong>, mi actual canal
+                me interesé por la producción audiovisual, motivo por el cual, en
+                2015, surgió <strong>Giorgio Productions</strong>, mi actual canal
                 de YouTube.
               </p>
               <br />
@@ -198,10 +210,10 @@
               </a>
             </div>
             <div class="column is-3">
-              <a target="_blank" href="https:/yurii.ga">
+              <a target="_blank" href="https://play.google.com/store/apps/dev?id=7535360697690297052">
                 <figure
                   class="image is-2by1 work-item"
-                  style="background-image: url('images/proyectos/yurii.jpg');"
+                  style="background-image: url('images/proyectos/more.jpg');"
                 ></figure>
               </a>
             </div>
@@ -260,22 +272,18 @@
               class="column is-6 has-vertically-aligned-content"
               data-aos="fade-right"
             >
-              <iframe width="560" height="315"
+            <figure class="image is-16by9">
+<iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/kQ6V0u_rnYM?showinfo=0" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-              src="https://www.youtube.com/embed/kQ6V0u_rnYM"
-
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-              gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="is-divider"></div>
             </div>
 
             <div class="column is-6 has-vertically-aligned-content" data-aos="fade-left">
-              <iframe width="560" height="315"
 
-              src="https://www.youtube.com/embed/qS95_y5MEMQ"
-
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-              gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/qS95_y5MEMQ?showinfo=0" frameborder="0" allowfullscreen></iframe>
+</figure>
             </div>
           </div>
         </div>
@@ -288,7 +296,14 @@
           </div>
           <div data-aos="fade-up">
             <center>
-              <iframe src="https://discordapp.com/widget?id=300975843809820672&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
+              <div style="position:relative;">
+                <figure id="discord-figure" class="image is-square">
+                <iframe class="has-ratio" src="https://discordapp.com/widget?id=300975843809820672&theme=dark" width="500" height="350" allowtransparency="true" frameborder="0"></iframe>
+                </figure>
+              <a target="_blank" href="https://discord.gg/eJCBDW3" style="position:absolute; top:0; left:0; display:inline-block; width:500px; height:500px; z-index:5;"></a>
+              </div>
+
             </center>
           </div>
         </div>
@@ -370,8 +385,16 @@
     <!-- Begin Footer -->
     <div class="footer">
       <p>
-        <a target="_blank" href="credits" style="color:#4F4F4F;">&copy; 2020 Giorgio Productions</a>
+        <a style="color:#4F4F4F;">&copy; 2020 Giorgio Productions</a>
+        <br />
+        <p style="color:#4f4f4f;">
+          <a target="_blank" href="https://bulma.io/"><strong>Bulma</strong></a> by <a target="_blank" href="http://jgthms.com">Jeremy Thomas</a>.
+          The source code is licensed
+          <b><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></b>. The website content is licensed
+          <b><a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a></b>.
+        </p>
       </p>
+
     </div>
     <!-- End Footer -->
 

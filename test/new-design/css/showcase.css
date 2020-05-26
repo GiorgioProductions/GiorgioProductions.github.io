@@ -251,7 +251,6 @@ html {
   bottom: 0;
   width: 100vw;
   padding: 0;
-  height: 80px;
   line-height: 25px;
   text-align: center;
   background: #ffffff;
@@ -260,8 +259,7 @@ html {
 }
 
 .footer a {
-  padding: 0rem 1rem 1rem 1rem;
-  color: lightgrey;
+  color: #2f2f2f;
 }
 
 .footer a i {
