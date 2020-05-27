@@ -1,34 +1,13 @@
 <!DOCTYPE html>
-<html class="no-js" lang="es">
-<head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web oficial de Giorgio Productions. Programador y youtuber cartagenero.">
     <title>Giorgio Productions</title>
-    <meta name="description" content="Web oficial de GiorgioProductions. Desarrollador de aplicaciones y youtuber cartagenero.">
-    <meta name="author" content="Giorgio Productions">
-	  <meta name="robots" content="index, follow">
-    <meta property="og:url" content="https://giorgioproductions.github.io">
-    <meta property="og:image" content="images/pp.jpg" />
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/giorgio.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script>
-    <script src="js/modernizr.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics  -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148484438-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -38,288 +17,468 @@
       gtag('config', 'UA-148484438-1');
     </script>
 
-    <!--Adsense-->
-    <script data-ad-client="ca-pub-6689155938653811" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script async custom-element="amp-auto-ads"
-            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/showcase.css" />
 
-</head>
+    <!-- Bulma-Social -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+
+    <link rel="stylesheet" href="css/giorgio.css">
+    <link rel="stylesheet" href="css/video.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.ico" />
 
 
-<body id="top">
-  <amp-auto-ads type="adsense"
-          data-ad-client="ca-pub-6689155938653811">
-  </amp-auto-ads>
-  <!--Google, please, index this-->
-  <img id="img1" src="images/sticker2.png" alt="Sticker de Giorgio Productions">
-  <a id="img2" href="https://store.epicgames.com/giorgioprods/red-dead-redemption-2" target="_blank"><img src="images/codigo giorgioprods en la tienda del fortnite.png" alt="Código GiorgioProds en la tienda del Fortnite"></a>
-  <img id="img3" src="images/giorgio productions in the forest.jpg" alt="Giorgio Tumblr">
-  <img id="img4" src="images/andy.jpg" alt="Dibujo de Andy">
-  <h1 id="h1-giorgio"><strong>Giorgio Productions</strong></h1>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+  </head>
 
-  <script type="text/javascript">
-    document.getElementById("img1").style.display = "none";
-    document.getElementById("img2").style.display = "none";
-    document.getElementById("img3").style.display = "none";
-    document.getElementById("img4").style.display = "none";
-    document.getElementById("h1-giorgio").style.display = "none";
-  </script>
+  <body>
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+    <div id="video" class="fullscreen-bg is-hidden-mobile">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+          <source src="images/hero-bg.mp4" type="video/mp4">
+        </video>
     </div>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <h3><strong>Giorgio Productions</strong></h3>
-
-            <div class="header-nav__content">
-
-         <ul class="header-nav__list"><p>
-			   <a class="smoothscroll" href="#inicio">Inicio</a>
-         <br />
-			   <a class="smoothscroll" href="#sobremi">Sobre mí</a>
-         <br />
-			   <a class="smoothscroll" href="#proyectos">Proyectos</a>
-         <br />
-			   <a href="TapLoop/">TapLoop</a>
-         <br />
-			   <a class="smoothscroll" href="#contacto">Contacto</a>
-         </p></ul>
-
-         <ul class="header-nav__social">
-             <li>
-                 <a href="https://www.youtube.com/GiorgioProductions" target="_blank"><i class="fab fa-youtube"></i></a>
-             </li>
-             <li>
-                 <a href="https://twitter.com/GiorgioProds" target="_blank"><i class="fab fa-twitter"></i></a>
-             </li>
-             <li>
-                 <a href="https://www.instagram.com/giorgioproductions/" target="_blank"><i class="fab fa-instagram"></i></a>
-             </li>
-             <li>
-                 <a href="https://twitch.tv/GiorgioProductions" target="_blank"><i class="fab fa-twitch"></i></a>
-             </li>
-             <li>
-                 <a href="https://discord.gg/D7MBWc5" target="_blank"><i class="fab fa-discord"></i></a>
-             </li>
-         </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div>
+    <!-- End Preloader-->
 
 
-    <!-- home
-    ================================================== -->
-    <section id="inicio" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-        <!--<div class="grid-overlay">
-            <div></div>
-        </div>-->
+    <!--Google porfi indexa esto-->
+      <h1 id="h1-giorgio"><strong>Giorgio Productions</strong></h1>
+      <img id="img1" src="images/sticker2.png" alt="Sticker de Giorgio Productions">
+      <a id="img2" href="https://store.epicgames.com/giorgioprods/red-dead-redemption-2" target="_blank"><img src="images/codigo giorgioprods en la tienda del fortnite.png" alt="Código GiorgioProds en la tienda del Fortnite"></a>
+      <img id="img3" src="images/giorgio productions in the forest.jpg" alt="Giorgio Tumblr">
+      <img id="img4" src="images/andy.jpg" alt="Dibujo de Andy">
 
-        <div class="home-content">
+      <script type="text/javascript">
+          document.getElementById("img1").style.display = "none";
+          document.getElementById("img2").style.display = "none";
+          document.getElementById("img3").style.display = "none";
+          document.getElementById("img4").style.display = "none";
+          document.getElementById("h1-giorgio").style.display = "none";
+        </script>
 
-            <div class="row home-content__main">
-                <h1 style="font-size:10vw">
-                Giorgio Productions
-                </h1>
 
-                <h3 id="h3" style="font-size:3vw">
-                Programming & Video Editing
-                </h3>
 
-                <div class="home-content__video">
-                  <a id="btnvideo" class="btn btn--primary" href="https://www.youtube.com/watch?v=kQ6V0u_rnYM" data-lity href="#0"><i class="fas fa-play"></i> ÚLTIMO VÍDEO</a>
-                  <a class="btn btn--stroke" href="https://play.google.com/store/apps/dev?id=7535360697690297052" target="_blank">APPS</a>
-                </div>
-				<br /><br /><br /><br /><br /><br />
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
 
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-    </section> <!-- end s-home -->
-
-	<section class="s-styles" id="sobremi">
-
-        <div class="row narrow section-intro add-bottom text-center">
-
-        <div class="col-twelve tab-full" data-aos="fade-up">
-        <br /><br />
-        <h1 class="display-1">
-        Sobre mí
-        </h1>
-        <p id="aboutme" class="aboutmepc">
-        Me llamo Giorgio y llevo desde pequeño interesado en la programación. Posteriormente me interesé también en la creación de vídeos, motivo por el que, en 2015, surgió Giorgio Productions, mi actual canal de YouTube. Ahora, el desarrollo de apps y la producción audiovisual son mis dos grandes pasiones.
-        </p>
-        <div class="col-six tab-full">
-          <p> </p>
+      <!-- Begin Hero -->
+      <section id="hero" class="hero is-large">
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Hola, soy</h1>
+            <h2 class="title">Giorgio</h2>
+            <h1 class="subtitle profession">Programador y youtuber</h1>
+          </div>
         </div>
-        <div class="col-six tab-full">
-        <img id="chibi" src="images/chibi.png" alt="Giorgio Chibi" height="250" width="250" class="chibi">
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">Sobre mí</a>
+                  </li>
+                  <li>
+                    <a href="#proyectos">Proyectos</a>
+                  </li>
+                  <li>
+                    <a href="#videos">Vídeos</a>
+                  </li>
+                  <li>
+                    <a href="#social">Redes sociales</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <br /><br />
-        <hr>
-			  <br />
-        </div>
+        <!-- End Hero Menu -->
       </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
 
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Sobre mí</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger is-hidden-mobile">
+                <strong>
+                  Giorgio Productions
+                </strong>
+              </p>
+              <br />
+              <p class="is-hidden-mobile">
+                Mi nombre es Jorge, pero me podéis llamar Giorgio. Llevo desde
+                muy pequeño interesado en la informática, más concretamente en el
+                ámbito de la programación. Siempre me ha apasionado poder crear
+                algo con lo que la gente pueda interactuar. Posteriormente también
+                me interesé por la producción audiovisual, motivo por el cual, en
+                2015, surgió <strong>Giorgio Productions</strong>, mi actual canal
+                de YouTube.
+              </p>
+              <p class="is-hidden-tablet" style="text-align:center;">
+                Mi nombre es Jorge, pero me podéis llamar Giorgio. Llevo desde
+                muy pequeño interesado en la informática, más concretamente en el
+                ámbito de la programación. Siempre me ha apasionado poder crear
+                algo con lo que la gente pueda interactuar. Posteriormente también
+                me interesé por la producción audiovisual, motivo por el cual, en
+                2015, surgió <strong>Giorgio Productions</strong>, mi actual canal
+                de YouTube.
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links is-hidden-mobile">
+                  <div class="column">
+                    <p class="heading">
+                      <strong>Canal de YouTube</strong>
+                    </p>
+                    <p class="subheading">
+                      <a target="_blank" href="https://www.youtube.com/GiorgioProductions">Giorgio Productions</a>
+                    </p>
+                  </div>
+                  <div class="column">
+                    <p id="test1" class="heading">
+                      <strong>Correo electrónico</strong>
+                    </p>
+                    <p id="test2" class="subheading">
+                      <a href="mailto:giorgioproductions@gmail.com">giorgioproductions@gmail.com</a>
+                    </p>
+                </div>
+              </div>
+              <div class="columns about-links is-hidden-tablet">
+                <center>
+                  <div class="column">
+                    <p class="heading">
+                      <strong>Canal de YouTube</strong>
+                    </p>
+                    <p class="subheading">
+                      <a target="_blank" href="https://www.youtube.com/GiorgioProductions">Giorgio Productions</a>
+                    </p>
+                  </div>
+                  <div class="column">
+                    <p class="heading">
+                      <strong>Correo electrónico</strong>
+                    </p>
+                    <p class="subheading">
+                      <a href="mailto:giorgioproductions@gmail.com">giorgioproductions@gmail.com</a>
+                    </p>
+                </div>
+              </center>
+              </div>
+            </div>
+            <div class="column is-6  " data-aos="fade-left">
+              <img
+                class=""
+                src="images/chibi.png"
+                alt=""
+                height="400px"
+                width="400px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
 
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="proyectos">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Mis proyectos</h1>
+            </div>
+            <div class="column is-3">
+              <a target="_blank" href="TapLoop">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('images/proyectos/taploop.jpg');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.youdarling">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('images/proyectos/collaborationplus.jpg');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mikaelaraviolis.cookieasteroid">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('images/proyectos/cookieasteroid.jpg');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a target="_blank" href="https://play.google.com/store/apps/dev?id=7535360697690297052">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('images/proyectos/more.jpg');"
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
 
-      <section class="s-styles" id="proyectos">
-          <div class="row narrow section-intro add-bottom text-center">
-          <div class="col-twelve tab-full" data-aos="fade-up">
-          <h1 class="display-1" >
-            Mis proyectos
-          </h1>
-				  <div class="col-six tab-full">
-				  <a href="TapLoop/">
-					<img alt="TapLoop" src="images/taploop.gif" style="width:310px;height:128px;">
-			  	</a>
-			  	<p id="taplooptext"><strong>TapLoop</strong> es un juego de tapping gratuito que puedes jugar cuando estés aburrido. Está disponible únicamente para Android y puedes descargarlo desde <a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.gmbeat"><strong>Google Play</strong></a>.</p>
-				  </div>
-				  <div class="col-six tab-full">
-				<!--<a>
-					<img alt="Yurii" src="images/yurii.png" style="width:310px;height:128px;">
-				</a>
-				<p><strong>Yurii</strong> fue una red social para creadores de contenido que decidí cerrar para dar paso a Collaboration Plus.</p>
-      --><a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.youdarling">
-					<img alt="Collaboration Plus" src="images/collaborationplus.png" style="width:310px;height:128px;">
-				 </a>
-			 	 <p id="collaborationplustext"><strong>Collaboration Plus</strong> es una app para encontrar colaboraciones entre creadores de contenido. Puedes unirte a la beta abierta desde <a target="_blank" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.youdarling"><b>Google Play</b></a>.</p>
-         </div>
+      <!-- Begin Skills Content
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Java</h1>
+              <progress class="progress" value="70" max="100">30%</progress>
+              <h1>C#</h1>
+              <progress class="progress" value="45" max="100">30%</progress>
+              <h1>WordPress</h1>
+              <progress class="progress" value="85" max="100">45%</progress>
+              <h1>Adobe Premiere Pro</h1>
+              <progress class="progress" value="90" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>HTML</h1>
+              <progress class="progress" value="85" max="100">30%</progress>
+              <h1>CSS</h1>
+              <progress class="progress" value="40" max="100">30%</progress>
+              <h1>JavaScript</h1>
+              <progress class="progress" value="55" max="100">45%</progress>
+              <h1>Node.js</h1>
+              <progress class="progress" value="30" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+      </div>
+      End Skills Content -->
+
+      <div class="section-light about-me" id="videos">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Mis vídeos</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+            <figure class="image is-16by9">
+<iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/kQ6V0u_rnYM?showinfo=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+              <div class="is-divider"></div>
+            </div>
+
+            <div class="column is-6 has-vertically-aligned-content" data-aos="fade-left">
+
+              <figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/qS95_y5MEMQ?showinfo=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-dark about-me" id="social">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Redes sociales</h1>
+          </div>
+
+              <div class="columns is-mobile is-multiline is-centered">
+                <div class="column is-narrow">
+                  <div class="social-btns">
+                    <a class="btn discord" target="_blank" href="https://discord.gg/eJCBDW3">
+                      <i class="fab fa-discord"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="social-btns">
+                    <a class="btn twitter" target="_blank" href="https://twitter.com/GiorgioProds">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="social-btns">
+                    <a class="btn deviantart" target="_blank" href="https://www.deviantart.com/giorgioproductions">
+                      <i class="fab fa-deviantart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="social-btns">
+                    <a class="btn instagram" target="_blank" href="https://www.instagram.com/giorgioproductions/">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="social-btns">
+                    <a class="btn youtube" target="_blank" href="https://www.youtube.com/GiorgioProductions">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="social-btns">
+                    <a class="btn github" target="_blank" href="https://github.com/GiorgioProductions">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <!-- Begin Contact Content -->
+      <div class="section-light contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Contacto
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form
+                action="https://formspree.io/myynzdzn"
+                method="POST"
+              >
+                <div class="field">
+                  <label class="label">Nombre</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Tu nombre"
+                      name="Name"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Correo electrónico</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="hello@expample.com"
+                      name="Email"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Mensaje</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Escribe tu mensaje aquí"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control ">
+                    <button class="button submit-button">
+                      Enviar&nbsp;&nbsp;
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <a style="color:#4F4F4F;">&copy; 2020 Giorgio Productions</a>
+        <br />
+        <p style="color:#4f4f4f;">
+          <a target="_blank" href="https://bulma.io/"><strong>Bulma</strong></a> by <a target="_blank" href="http://jgthms.com">Jeremy Thomas</a>.
+          The source code is licensed
+          <b><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></b>. The website content is licensed
+          <b><a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a></b>.
+        </p>
+      </p>
 
     </div>
-    <br /><br />
-    <hr>
-    <br />
-    </div>
-    </section>
+    <!-- End Footer -->
 
-
-
-    <section class="s-styles" id="contacto">
-        <div class="row narrow section-intro add-bottom text-center">
-        <div class="col-twelve tab-full" data-aos="fade-up">
-        <h1 class="display-1" >
-          Contacto
-        </h1>
-        <div class="col-six tab-full">
-        <p>Puedes contactar conmigo a través de mi servidor de Discord, además de en todas las redes sociales que aparecen justo aquí debajo.</p>
-        <ul class="header-nav__social">
-            <li>
-                <a href="https://www.youtube.com/GiorgioProductions" target="_blank"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/GiorgioProds" target="_blank"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/giorgioproductions/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://twitch.tv/GiorgioProductions" target="_blank"><i class="fab fa-twitch"></i></a>
-            </li>
-            <li>
-                <a href="https://discord.gg/D7MBWc5" target="_blank"><i class="fab fa-discord"></i></a>
-            </li>
-        </ul>
-        <br />
-        <br />
-        <p>Por supuesto también puedes escribirme un correo electrónico en la dirección <a href="mailto:giorgioproductions@gmail.com">giorgioproductions@gmail.com</a>.</p>
-        <br />
-        </div>
-        <div class="col-six tab-full">
-        <iframe src="https://discordapp.com/widget?id=300975843809820672&theme=dark" width="300" height="265" allowtransparency="true" frameborder="0"></iframe>
-        </div>
-  </div>
-  </div>
-  </section>
-			<!--Footer-->
-      <div class="row narrow section-intro add-bottom text-center">
-		<div class="row">
-            <div class="col-full ss-copyright">
-                <span>© 2020 Giorgio Productions</span>
-                <span>Design by <a target="_blank" href="https://www.styleshout.com/">Styleshout</a></span>
-            </div>
-        </div>
-        </div>
-
-
-
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-
-    <!-- JavaScript
-    ================================================== -->
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/showcase.js"></script>
     <script src="js/giorgio.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/chibi.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
     <script type="text/javascript" id="cookieinfo"
       src="https://cookieinfoscript.com/js/cookieinfo.min.js"
       data-message="Al navegar en este sitio web aceptas su política de cookies."
@@ -333,4 +492,5 @@
       data-accept-on-scroll="true"
       >
     </script>
-</body>
+  </body>
+</html>
