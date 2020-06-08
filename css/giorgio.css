@@ -1,3 +1,10 @@
+.language-menu{
+ position: absolute;
+ right: 0px;
+ top:0px;
+ margin: 1rem;
+}
+
 .horizontal-ul {
   list-style: none;
   display: inline-block;
