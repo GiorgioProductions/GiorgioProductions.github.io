@@ -5,6 +5,7 @@ Disallow: /CollaborationPlus/
 Allow: /TapLoop/
 Disallow: /TapLoop/credits
 Disallow: /404
+Disallow: /mc/normas
 
 User-agent: Googlebot-Image
 Allow: /
