@@ -1,3 +1,23 @@
+window.cookieconsent.initialise({
+"palette": {
+    "popup": {
+        "background": "#4D6A90",
+        "text": "#fff"
+    },
+    "button": {
+        "background": "#fff",
+        "text": "#4D6A90"
+    }
+},
+"theme": "classic",
+"content": {
+    "message": "Este sitio utiliza cookies para mejorar tu experiencia.",
+    "dismiss": "De acuerdo",
+    "link": "Aprender más <i class='fas fa-external-link-alt fa-xs'></i>",
+    "href": "https://www.cookiesandyou.com/"
+  }
+});
+
 checkMobile();
 
 //Detectar cambio del tamaño de la ventana
