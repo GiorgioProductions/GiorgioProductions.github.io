@@ -5,7 +5,6 @@ Allow: /TapLoop
 Allow: /TapLoop/
 Allow: /mc/
 Disallow: /CollaborationPlus/
-Disallow: /TapLoop/credits
 Disallow: /404
 Disallow: /mc/normas
 Disallow: /mc/tutorial
