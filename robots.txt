@@ -1,15 +1,13 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.xml
-Disallow: /CollaborationPlus/
 Allow: /TapLoop/
+Allow: /mc/
+Disallow: /CollaborationPlus/
 Disallow: /TapLoop/credits
 Disallow: /404
-Allow: /mc/
 Disallow: /mc/normas
 Disallow: /mc/tutorial
 
 User-agent: Googlebot-Image
 Allow: /
-Allow: /TapLoop/
-Allow: /mc/
