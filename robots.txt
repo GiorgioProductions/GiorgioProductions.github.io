@@ -1,9 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /sitemap.xml
-Allow: /TapLoop
-Allow: /TapLoop/
-Allow: /mc/
 Disallow: /CollaborationPlus/
 Disallow: /404
 Disallow: /mc/normas
