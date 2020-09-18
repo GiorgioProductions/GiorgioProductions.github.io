@@ -6,6 +6,8 @@ Allow: /TapLoop/
 Disallow: /TapLoop/credits
 Disallow: /404
 Allow: /mc/
+Disallow: /mc/normas
+Disallow: /mc/tutorial
 
 User-agent: Googlebot-Image
 Allow: /
