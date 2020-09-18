@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
-  background: url("taploop.gif") no-repeat center center scroll;
+  background: url("") no-repeat center center scroll;
   background-size: cover;
 }
 
