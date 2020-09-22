@@ -34,10 +34,12 @@ $(document).on("click", 'a[href^="#"]', function(event) {
 });
 
 // Preloader
-$(document).ready(function($) {
+bgvid = document.getElementById('bgvid')
+bgvid.onloadeddata = function() {
   $(".preloader-wrapper").fadeOut(1500);
   $("body").removeClass("preloader-site");
-});
+};
+
 $(window).on("load", function() {
   var Body = $("body");
   Body.addClass("preloader-site");
