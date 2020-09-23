@@ -75,6 +75,13 @@
   color: #7289da;
 }
 
+.social-btns .btn.steam:before {
+  background-color: #171a21;
+}
+.social-btns .btn.steam .fab{
+  color: #171a21;
+}
+
 .social-btns .btn.github:before {
   background-color: #333;
 }
