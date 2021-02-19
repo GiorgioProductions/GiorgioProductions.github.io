@@ -14,7 +14,7 @@ window.cookieconsent.initialise({
     "message": "Este sitio utiliza cookies para mejorar tu experiencia.",
     "dismiss": "De acuerdo",
     "link": "Aprender más <i class='fas fa-external-link-alt fa-xs'></i>",
-    "href": "https://www.cookiesandyou.com/"
+    "href": "cookies"
   }
 });
 
