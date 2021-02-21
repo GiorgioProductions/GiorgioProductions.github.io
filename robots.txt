@@ -1,10 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /cookies.html
-Disallow: /CollaborationPlus/
 Disallow: /404
-Disallow: /mc/normas
-Disallow: /mc/tutorial
 
 User-agent: Googlebot-Image
 Allow: /
